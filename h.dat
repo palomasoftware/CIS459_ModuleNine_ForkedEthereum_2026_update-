@@ -30,6 +30,11 @@
    30  npx hardhat node --hardhat localhost
    31  npx hardhat node --hostname localhost
    32  vi hardhat.config.js
+
+//  11/26/2026  cloudflare edge does note work .... used the publicnode.com below it....
+
+
+
    33  curl -X POST https://cloudflare-eth.com   -H "Content-Type: application/json"   -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
    34  ls
    35  vi hardhat.config.js 
